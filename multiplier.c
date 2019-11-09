@@ -2,15 +2,25 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <locale.h>
-
-/* 10) Faça um programa que lê um vetor de 3 elementos e uma matriz de 3 x 3 elementos. Em
-	seguida o programa deve fazer a multiplicação do vetor pelas colunas da matriz. */
 	
-// protótipo de função
+// protÃ³tipo de funÃ§Ã£o
 void cls(); // pause and clear screen
 int mat_vet(int mat[3][3], int vet[3], int i, int j);
 
-// variáveis
+/* 
+	06 de novembro de 2019	
+
+    Departamento de T.I., UniProjeÃ§Ã£o (Taguatinga, Campus I)
+    
+    Sistemas de InformaÃ§Ã£o (2Âº semestre)
+    Autor: Yan Almeida Garcia 
+
+	FaÃ§a um programa que lÃª um vetor de 3 elementos e uma matriz de 3 x 3 elementos. Em
+	seguida o programa deve fazer a multiplicaÃ§Ã£o do vetor pelas colunas da matriz. 
+
+*/
+
+// variÃ¡veis
 	int mat[3][3], vet[3]; // linha -> coluna
 	int i, j; // aux. matriz
 
@@ -48,7 +58,7 @@ int mat_vet(int mat[3][3], int vet[3], int i, int j){
 	}
 	cls();
 
-	// exibição de dados >> vetor e matriz && multiplicação
+	// exibiÃ§Ã£o de dados >> vetor e matriz && multiplicaÃ§Ã£o
 		// vetor
 	puts("\n ::: Elementos >> vetor :::\n"
 		"     Elementos originais: \n");
