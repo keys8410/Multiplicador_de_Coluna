@@ -70,9 +70,8 @@ int mat_vet(int mat[3][3], int vet[3], int i, int j){
 		"     Elementos originais: ");
 	for(i = 0; i < 3; i++){ // linhas
 		puts("");
-		for(j = 0; j < 3; j++){ // colunas
-			printf(" | %d |", mat[i][j]);
-		}
+		for(j = 0; j < 3; j++) printf(" | %d |", mat[i][j]);
+		
 	}
 		// vet x mat
 	for(i = 0; i < 3; i++){
@@ -83,8 +82,6 @@ int mat_vet(int mat[3][3], int vet[3], int i, int j){
 		"     Elementos multiplicados: ");
 	for(i = 0; i < 3; i++){
 		puts("");
-		for(j = 0; j < 3; j++){
-			printf(" | %d |", mat[i][j]);
-		}
+		for(j = 0; j < 3; j++) printf(" | %d |", mat[i][j]);
 	}
 }
