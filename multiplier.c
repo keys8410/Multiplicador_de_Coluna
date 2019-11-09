@@ -15,8 +15,8 @@ int mat_vet(int mat[3][3], int vet[3], int i, int j);
     Sistemas de Informação (2º semestre)
     Autor: Yan Almeida Garcia 
 
-	Faça um programa que lê um vetor de 3 elementos e uma matriz de 3 x 3 elementos. Em
-	seguida o programa deve fazer a multiplicação do vetor pelas colunas da matriz. 
+	Faça um programa que lê um 'vetor' de 3 elementos e uma 'matriz' de 3 x 3 elementos. Em
+	seguida o programa deve fazer a multiplicação do 'vetor' pelas colunas da 'matriz'. 
 
 */
 
