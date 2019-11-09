@@ -47,7 +47,6 @@ int mat_vet(int mat[3][3], int vet[3], int i, int j){
 		printf(" Elemento [ %d ]: ", i + 1); scanf(" %d", &vet[i]);
 	}
 	cls();
-
 	// entrada de dados >> matriz
 	puts("\n ::: Informe os elementos >> matriz :::");
 	for(i = 0; i < 3; i++){ // linhas
@@ -56,8 +55,7 @@ int mat_vet(int mat[3][3], int vet[3], int i, int j){
 			printf(" Elemento [ %d ][ %d ]: ", i + 1, j + 1); scanf(" %d", &mat[i][j]);
 		}
 	}
-	cls();
-
+	cls(); 
 	// exibição de dados >> vetor e matriz && multiplicação
 		// vetor
 	puts("\n ::: Elementos >> vetor :::\n"
@@ -70,14 +68,12 @@ int mat_vet(int mat[3][3], int vet[3], int i, int j){
 		"     Elementos originais: ");
 	for(i = 0; i < 3; i++){ // linhas
 		puts("");
-		for(j = 0; j < 3; j++) printf(" | %d |", mat[i][j]);
-		
+		for(j = 0; j < 3; j++) printf(" | %d |", mat[i][j]);	
 	}
 		// vet x mat
 	for(i = 0; i < 3; i++){
 		for(j = 0; j < 3; j++) mat[i][j] *= vet[i];
 	}
-
 	puts("\n\n ::: Elementos >> vetor x matriz :::\n"
 		"     Elementos multiplicados: ");
 	for(i = 0; i < 3; i++){
